@@ -309,6 +309,27 @@ $grey: #f7f7f7;
     }
 }
 
+@media only screen and (max-width: #{$global-breakpoint})
+{
+    .plus
+    {
+        p
+        {
+            font-size: 70px;
+
+            margin-top: 10px;
+        }
+    }
+
+    .swish
+    {
+        img
+        {
+            margin-top: 35px;
+        }
+    }
+}
+
 .first-agent
 {
     background-color: #ffffff;
