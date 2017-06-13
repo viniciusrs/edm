@@ -423,12 +423,11 @@ $grey: #f7f7f7;
 
     img
     {
-        width: 30px;
-        height: 30px;
+        height: 20px;
 
-        margin: 40px 10px 20px 0px;
+        margin: 40px 15px 20px 0px;
 
-        display: inline-block;
+        display: inline;
     }
 }
 
@@ -448,7 +447,12 @@ $grey: #f7f7f7;
 
     .social
     {
-        margin-top: 0;
+        img
+        {
+            height: 20px !important;
+
+            margin-top: 0px;
+        }
     }
 }
 
