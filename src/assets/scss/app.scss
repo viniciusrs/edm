@@ -358,7 +358,7 @@ $grey: #f7f7f7;
 
     a
     {
-        font-size: 25px;
+        font-size: 23px;
         font-weight: bold;
 
         background-color: $orange;
@@ -386,8 +386,6 @@ $grey: #f7f7f7;
 .contact
 {
     background-color: $grey;
-
-    border-bottom: 1px solid #c1c1c1;
 
     p
     {
@@ -418,8 +416,6 @@ $grey: #f7f7f7;
 .social
 {
     background-color: $grey;
-
-    border-bottom: 1px solid #c1c1c1;
 
     img
     {
@@ -460,6 +456,8 @@ $grey: #f7f7f7;
 .copyright
 {
     background-color: $grey;
+
+    border-top: 1px solid #c1c1c1;
 
     p
     {
